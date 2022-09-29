@@ -1,0 +1,35 @@
+.Item {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+.Item-image {
+	width: wrap-content;
+	height: wrap-content;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+	float: left;
+}
+
+.Item-title {
+	font-weight: bold;
+	margin-bottom: 0.4em;
+}
+.Item-price {
+	text-align: left;
+	font-size: 18px;
+	color: #555;
+}
+
+.Item-left {
+flex: 1;
+}
+.Item-right {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.main{
+	width: 100%;
+}
